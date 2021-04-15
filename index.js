@@ -3,7 +3,6 @@
 const generateMarkdown = require('./utils/generateMarkdown');
 const inquirer = require('inquirer');
 const fs = require('fs');
-
 // *needed to promisify async init function
 const util = require('util');
 
@@ -37,7 +36,16 @@ const promptUser = () => {
 };
 
 // Define async initialization
-// const init = async
+const init = async () => {
+    try {
+        const answers = await promptUser()
+        await writeFileAsync('README.md', generateMarkdown(answers))
+        console.log('Successfully generated README file!')
+    } catch (err) {
+        console.error(err)
+    }
+    console.log("Check it out - it should be in the root directory of the Generator. Now you can move it to your project folder. Can't wait to see your next project!")
+};
 
 // Initialize app
 init();
