@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-// license badge
+${renderLicenseBadge(data.license)}
 
 ${data.blurb}
 
@@ -71,6 +71,7 @@ ${data.blurb}
 - [Contribute](#contribute)
 - [Contact Me](#questions)
 - [License](#license)
+
 ## Description
 
 ${data.description}
@@ -99,7 +100,7 @@ ${data.contribute}
 
 ## License
 
-// license section
+${renderLicenseSection(data.license)}
 
 &copy; ${data.year} ${data.author}
 `;
