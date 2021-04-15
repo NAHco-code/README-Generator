@@ -1,13 +1,26 @@
-// TODO: Include packages needed for this application
 
-// TODO: Create an array of questions for user input
-const questions = [];
+// Set dependencies
+const generateMarkdown = require('./utils/generateMarkdown');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// *needed to promisify async init function
+const util = require('util');
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
+
+// Questions array for user input
+const questions = [{}];
+
+// Asynchronous writeFile function using promises instead of callback
+const writeFileAsync = util.promisify(fs.writeFile);
+
+const promptUser = () => {
+    return inquirer.prompt(questions);
+};
+
+// Define async initialization
+// const init = async
+
+// Initialize app
 init();
