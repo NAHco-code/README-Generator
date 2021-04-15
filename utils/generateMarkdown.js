@@ -1,6 +1,16 @@
 // Function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) { };
+function renderLicenseBadge(license) {
+  if (license === "MIT") {
+    return `![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)`;
+  } else if (license === "Apache 2.0") {
+    return `![License: Apache](https://img.shields.io/badge/License-Apache2.0-yellow.svg)`;
+  } else if (license === "GPL 3.0") {
+    return `![License: GPL](https://img.shields.io/badge/License-GPL3.0-critical.svg)`;
+  } else {
+    return '';
+  }
+};
 
 // Function that returns the license link
 // If there is no license, return an empty string
@@ -51,7 +61,7 @@ ${data.contribute}
 ## Questions?
 
 - Github: [${data.github}]
-- LinkedIn: [${data.author}]
+- LinkedIn: [${data.author}]${data.linkedin}
 - Email: [${data.email}]
 
 ## License
