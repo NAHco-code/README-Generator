@@ -14,7 +14,6 @@ function renderLicenseBadge(license) {
 
 // Function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { };
 function renderLicenseLink(license) {
   let link;
   switch (license) {
@@ -94,9 +93,11 @@ ${data.contribute}
 
 ## Questions?
 
-- Github: [${data.github}]
-- LinkedIn: [${data.author}]${data.linkedin}
-- Email: [${data.email}]
+Please feel free to contact me with any questions via email or LinkedIn.
+
+- Github: [${data.github}](https://github.com/${data.github})
+- LinkedIn: [${data.author}](https://www.linkedin.com/in/${data.linkedin}/)
+- Email: [${data.email}](mailto:${data.email})
 
 ## License
 
