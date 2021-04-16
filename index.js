@@ -18,7 +18,7 @@ const questions = [
     { type: 'input', message: "What is the title of your project?", name: 'title' },
     { type: 'input', message: "Write a short blurb selling your project. Make it sound cool!", name: 'blurb' },
     { type: 'input', message: "Write a detailed description of your project. Explain the 'what', 'why' and 'how'", name: 'description' },
-    { type: 'input', message: "What command should be run to install dependencies?", name: 'installation' },
+    { type: 'input', message: "What does the user need to know about how to install your project? Include any commands that must be run to install dependencies.", name: 'installation' },
     { type: 'input', message: "What does the user need to know about using your project?", name: 'usage' },
     { type: 'input', message: "What command should be run for tests?", name: 'tests' },
     { type: 'input', message: "What does the user need to know about contributing to the project?", name: 'contribute' },

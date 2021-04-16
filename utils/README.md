@@ -23,7 +23,7 @@ This command-line application utilizes Nodejs and Inquirer to generate a README.
 
 ## Installation
 
-Clone the repository at { } and open it in your preferred code editor. Navigate to the root folder in your command-line and run 'npm i' to install dependencies.
+Clone the repository and open it in your preferred code editor. Navigate to the root folder in your command-line and run 'npm i' to install dependencies.
 
 ## Usage
 
