@@ -27,11 +27,12 @@ Clone the repository and open it in your preferred code editor. Navigate to the 
 
 ## Usage
 
-After installation, run 'node index.js' in the command-line to access the prompts and start the generator. When the prompts are complete,  the generator will notify you that your README was created. The file will appear in the application folder with the information you entered. If a README.md file already exists in the folder, it will be overwritten.
+After installation, run 'node index.js' in the command-line to access the prompts and start the generator. When the prompts are complete,  the generator will notify you that your README was created. The file will appear in the application folder with the information you entered.
 
 The README can then be saved, modified, moved, copied, etc. at your liesure!
 
-[link to demo]()
+[![DEMO](http://img.youtube.com/vi/xI5c1kq03ck/0.jpg)](http://www.youtube.com/watch?v=xI5c1kq03ck "")
+
 
 Run 'npm test' to test.
 
