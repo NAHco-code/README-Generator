@@ -40,13 +40,13 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license === "MIT") {
     return `This project is licensed under the MIT License.
-  For more information, please visit: [MIT](${renderLicenseLink(license)})`;
+  For more information, please visit: [MIT Explained](${renderLicenseLink(license)})`;
   } else if (license === "Apache 2.0") {
     return `This project is licensed under Apache 2.0.
-  For more information, please visit: [Apache](${renderLicenseLink(license)})`;
+  For more information, please visit: [Apache Explained](${renderLicenseLink(license)})`;
   } else if (license === "GPL 3.0") {
     return `This project is licensed under GPL 3.0.
-  For more information, please visit: [GPL](${renderLicenseLink(license)})`;
+  For more information, please visit: [GPL Explained](${renderLicenseLink(license)})`;
   } else {
     return '';
   }
