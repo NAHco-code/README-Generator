@@ -36,8 +36,6 @@ The README can then be saved, modified, moved, copied, etc. at your liesure!
 
 [![DEMO](http://img.youtube.com/vi/xI5c1kq03ck/0.jpg)](http://www.youtube.com/watch?v=xI5c1kq03ck "")
 
-Run 'npm test' to test.
-
 ## Contribute
 
 If you have something you'd like to contribute, make a pull request!
