@@ -1,4 +1,3 @@
-
 # Good README Generator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
@@ -54,5 +53,3 @@ Please feel free to contact me with any questions via email or LinkedIn.
 
 This project is licensed under the MIT License.
 For more information, please visit: [MIT Explained](https://choosealicense.com/licenses/mit/)
-
-&copy; 2021 Kathryn Wilkinson
