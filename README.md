@@ -9,8 +9,7 @@ Efficiently generate a high-quality, professional README for any project!
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Contribute](#contribute)
 - [Contact Me](#questions)
 - [License](#license)
 
